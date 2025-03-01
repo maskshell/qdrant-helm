@@ -5,6 +5,8 @@ on:
       - main
     paths:
       - 'charts/*/Chart.yaml'
+  workflow_dispatch: # Add this section to enable manual triggering
+
 jobs:
   Release:
     name: Release Workflow
