@@ -5,6 +5,32 @@ entries:
       artifacthub.io/category: database
       artifacthub.io/changes: |
         - kind: added
+          description: Update Helm chart version to v1.13.5
+    apiVersion: v2
+    appVersion: v1.13.4
+    created: "2025-03-01T15:30:25.463183147Z"
+    description: Qdrant - Vector Database for the next generation of AI applications.
+    digest: 22b198ba1420c5ab06d15fbd44cab946613ac08eb725a272aabaa25f94f74749
+    home: https://qdrant.tech
+    icon: https://maskshell.github.io/qdrant-helm/logo_with_text.svg
+    keywords:
+    - vector database
+    maintainers:
+    - email: analyser@gmail.com
+      name: Mask
+      url: https://github.com/maskshell
+    name: qdrant
+    sources:
+    - https://github.com/qdrant/qdrant
+    - https://github.com/maskshell/qdrant-helm
+    type: application
+    urls:
+    - https://github.com/maskshell/qdrant-helm/releases/download/qdrant-1.13.5/qdrant-1.13.5.tgz
+    version: 1.13.5
+  - annotations:
+      artifacthub.io/category: database
+      artifacthub.io/changes: |
+        - kind: added
           description: Update Qdrant to v1.13.4
     apiVersion: v2
     appVersion: v1.13.4
@@ -1467,4 +1493,4 @@ entries:
     urls:
     - https://qdrant.github.io/qdrant-helm/qdrant-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-17T15:12:08.820543174Z"
+generated: "2025-03-01T15:30:25.463396886Z"
