@@ -2,7 +2,7 @@ name: Release
 on:
   push:
     branches:
-      - main
+      - release
     paths:
       - 'charts/*/Chart.yaml'
   workflow_dispatch: # Add this section to enable manual triggering
