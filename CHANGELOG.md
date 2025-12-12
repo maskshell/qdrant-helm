@@ -1,5 +1,74 @@
 # Changelog
 
+## [qdrant-1.16.2](https://github.com/qdrant/qdrant-helm/tree/qdrant-1.16.2) (2025-12-03)
+
+- Update Qdrant to v1.16.2
+
+## [qdrant-1.16.1](https://github.com/qdrant/qdrant-helm/tree/qdrant-1.16.1) (2025-11-26)
+
+- Update Qdrant to v1.16.1
+- Add custom authorization support for ServiceMonitor [#407](https://github.com/qdrant/qdrant-helm/pull/407)
+
+## [qdrant-1.16.0](https://github.com/qdrant/qdrant-helm/tree/qdrant-1.16.0) (2025-11-17)
+
+- Update Qdrant to v1.16.0
+- Add support for `volumeAttributesClass` for PVCs [#396](https://github.com/qdrant/qdrant-helm/pull/396)
+- Fix helm warning because of wrong data type in env default value [#398](https://github.com/qdrant/qdrant-helm/pull/398)
+
+## [qdrant-1.15.5](https://github.com/qdrant/qdrant-helm/tree/qdrant-1.15.5) (2025-09-30)
+
+- Update Qdrant to v1.15.5
+
+## [qdrant-1.15.4](https://github.com/qdrant/qdrant-helm/tree/qdrant-1.15.4) (2025-08-27)
+
+- Update Qdrant to v1.15.4
+
+## [qdrant-1.15.3](https://github.com/qdrant/qdrant-helm/tree/qdrant-1.15.3) (2025-08-14)
+
+- Update Qdrant to v1.15.3
+
+## [qdrant-1.15.2](https://github.com/qdrant/qdrant-helm/tree/qdrant-1.15.2) (2025-08-12)
+
+- Update Qdrant to v1.15.2
+
+## [qdrant-1.15.1](https://github.com/qdrant/qdrant-helm/tree/qdrant-1.15.1) (2025-07-24)
+
+- Update Qdrant to v1.15.1
+- Add support for additional annotations in Kubernetes resource templates [#359](https://github.com/qdrant/qdrant-helm/pull/359)
+
+## [qdrant-1.15.0](https://github.com/qdrant/qdrant-helm/tree/qdrant-1.15.0) (2025-07-18)
+
+- Update Qdrant to v1.15.0
+- Use correct value in readOnlyApiKey check [#340](https://github.com/qdrant/qdrant-helm/pull/340)
+- Ensure that open file descriptor limit is set correctly on startup [#355](https://github.com/qdrant/qdrant-helm/pull/355)
+- Fix fsGroup and runAsUser not being int64 type [#354](https://github.com/qdrant/qdrant-helm/pull/354), [#357](https://github.com/qdrant/qdrant-helm/pull/357)
+
+## [qdrant-1.14.1](https://github.com/qdrant/qdrant-helm/tree/qdrant-1.14.1) (2025-05-23)
+
+- Update Qdrant to v1.14.1
+- Fix typo in README [#323](https://github.com/qdrant/qdrant-helm/pull/323)
+
+## [qdrant-1.14.0](https://github.com/qdrant/qdrant-helm/tree/qdrant-1.14.0) (2025-04-22)
+
+- Update Qdrant to v1.14.0
+- Make chart test image configurable [#320](https://github.com/qdrant/qdrant-helm/pull/320)
+- Do not unnecessarily update file system ownership when unprivilged image is not used [#321](https://github.com/qdrant/qdrant-helm/pull/321) 
+
+## [qdrant-1.13.6](https://github.com/qdrant/qdrant-helm/tree/qdrant-1.13.6) (2025-04-01)
+
+- Update Qdrant to v1.13.6
+
+## [qdrant-1.13.5](https://github.com/qdrant/qdrant-helm/tree/qdrant-1.13.5) (2025-03-21)
+
+- Update Qdrant to v1.13.5
+- Add support for P2P TLS [#314](https://github.com/qdrant/qdrant-helm/pull/314)
+- Make Service appProtocol configurable [#313](https://github.com/qdrant/qdrant-helm/pull/313)
+- Templating for config values [#308](https://github.com/qdrant/qdrant-helm/pull/308)
+- Templating for topologySpreadConstraints [#309](https://github.com/qdrant/qdrant-helm/pull/309)
+- Use tolerations and nodeSelector in test hook [#307](https://github.com/qdrant/qdrant-helm/pull/307)
+- Set Service annotations on headless Service [#305](https://github.com/qdrant/qdrant-helm/pull/305)
+- Support optional subPath for volumeMounts [#271](https://github.com/qdrant/qdrant-helm/pull/271)
+
 ## [qdrant-1.13.4](https://github.com/qdrant/qdrant-helm/tree/qdrant-1.13.4) (2025-02-17)
 
 - Update Qdrant to v1.13.4
